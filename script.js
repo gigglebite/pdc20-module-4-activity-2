@@ -60,8 +60,8 @@ function condition(){
 
 // function with if else and comparison
 function comparison(){
-    let valueA = prompt('Please enter a number', '');
-    let valueB = prompt('Please enter a number', '');
+    let valueA = prompt('Please enter the first number', '');
+    let valueB = prompt('Please enter the second number', '');
     if (valueA > valueB){
         alert('valueA is higher than valueB');
     } else if (valueA < valueB){

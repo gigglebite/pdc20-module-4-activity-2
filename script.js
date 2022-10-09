@@ -66,8 +66,10 @@ function comparison(){
         alert('valueA is higher than valueB');
     } else if (valueA < valueB){
         alert('valueB is higher than valueA');
-    } else{
+    } else if (valueA === valueB) {
         alert('valueA and valueB are equal');
+    } else {
+        alert('Invalid input');
     }
 }
 
